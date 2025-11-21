@@ -49,7 +49,7 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								Welcome to <strong>Digital Dag Studio</strong> – a soft, realistic space for people who are tired, distracted, and still trying. Here you’ll find ADHD-friendly routines, simple planning systems, and dog-centered nature rituals that don’t require a full battery to follow through on.</p>
+								<p>Welcome to <strong>Digital Dag Studio</strong> – a soft, realistic space for people who are tired, distracted, and still trying. Here you’ll find ADHD-friendly routines, simple planning systems, and dog-centered nature rituals that don’t require a full battery to follow through on.</p>
 								<p>If you’ve ever looked at a “perfect” routine and thought, “yeah, that’s not happening,” you’re in the right place. Most of what I share starts as a Pinterest pin – then becomes a deeper blog-style guide you can actually use. Start by exploring <a href="#work">ADHD routines</a> or <a href="#about">Nala in Nature</a>, then save the ones that feel doable on your lowest-energy days.</p>
 							</article>
 
@@ -134,55 +134,54 @@
 						</article>
 						
 						<script>
-							document.addEventListener("DOMContentLoaded", function () {
-								const form = document.getElementById("contactForm");
-								const status = document.getElementById("formStatus");
-							
-								if (!form || !status) return; // safety check
-							
-								form.addEventListener("submit", async function (e) {
-									e.preventDefault();
-							
-									// Show "sending" state so you know it's working
-									status.style.display = "block";
-									status.style.color = "#cccccc";
-									status.textContent = "Sending...";
-							
-									const formData = new FormData(form);
-							
-									try {
-										const response = await fetch(form.action, {
-											method: "POST",
-											body: formData
-										});
-							
-										if (response.ok) {
-										    status.style.color = "#4CAF50";
-										    status.textContent = "Message sent! I’ll get back to you soon. 💌";
-										    form.reset();
-										
-										    // Show message for 5 seconds before hiding it
-										    setTimeout(() => {
-										        status.style.display = "none";
-										        status.textContent = "";
-										    }, 5000); // 5,000 ms = 5 seconds
-										}
-									 } else {
-											status.style.color = "#E53935";
-											status.textContent = "Something went wrong. Please try again.";
-										}
-									} catch (err) {
-										status.style.color = "#E53935";
-										status.textContent = "Network error. Please check your connection and try again.";
-									}
-								});
-							
-								form.addEventListener("reset", function () {
-									// Optional: hide the message on reset
-									status.style.display = "none";
-									status.textContent = "";
-								});
-							});
+						document.addEventListener("DOMContentLoaded", function () {
+						  const form = document.getElementById("contactForm");
+						  const status = document.getElementById("formStatus");
+						
+						  if (!form || !status) return; // safety check
+						
+						  form.addEventListener("submit", async function (e) {
+						    e.preventDefault();
+						
+						    // Show "sending" state so you know it's working
+						    status.style.display = "block";
+						    status.style.color = "#cccccc";
+						    status.textContent = "Sending...";
+						
+						    const formData = new FormData(form);
+						
+						    try {
+						      const response = await fetch(form.action, {
+						        method: "POST",
+						        body: formData
+						      });
+						
+						      if (response.ok) {
+						        status.style.color = "#4CAF50";
+						        status.textContent = "Message sent! I’ll get back to you soon. 💌";
+						        form.reset();
+						
+						        // Show message for 5 seconds before hiding it
+						        setTimeout(() => {
+						          status.style.display = "none";
+						          status.textContent = "";
+						        }, 5000);
+						      } else {
+						        status.style.color = "#E53935";
+						        status.textContent = "Something went wrong. Please try again.";
+						      }
+						    } catch (err) {
+						      status.style.color = "#E53935";
+						      status.textContent = "Network error. Please check your connection and try again.";
+						    }
+						  });
+						
+						  form.addEventListener("reset", function () {
+						    // Optional: hide the message on reset
+						    status.style.display = "none";
+						    status.textContent = "";
+						  });
+						});
 						</script>
 						
 						<!-- Blog -->
@@ -194,7 +193,7 @@
 						<!-- Single Post Viewer -->
 						<article id="post-viewer" style="display:none;">
 						    <h2 id="post-title" class="post-title"></h2>
-						    <span class="image main"><img id="post-cover" src="" alt="" /></span>
+						    <img id="post-cover" src="" alt="" />
 						    <div id="post-content"></div>
 						    <br>
 						    <a href="#blog" class="button">← Back to Blog</a>
@@ -515,6 +514,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	</script>
 	</body>
 </html>
+
 
 
 
