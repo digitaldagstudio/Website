@@ -1720,8 +1720,8 @@ h2.major {
 }
 
 .blog-cover-thumb {
-  width: 64px;
-  height: 64px;
+  width: 48px;
+  height: 48px;
   object-fit: cover;
   border-radius: 4px;
   flex-shrink: 0;
@@ -1738,12 +1738,12 @@ h2.major {
   opacity: 0.7;
 }
 
-/* Tiny thumbnail for blog post cover */
+/* Tiny thumbnail for cover inside the blog post viewer */
 #post-cover {
-  width: 96px;          /* tiny */
-  height: 96px;         /* tiny square */
-  object-fit: cover;    /* keeps it neat */
-  border-radius: 6px;   /* soft edges */
+  width: 64px;          /* tiny */
+  height: 64px;         /* tiny square */
+  object-fit: cover;
+  border-radius: 6px;
   display: block;
   margin: 0 auto 1rem auto; /* centered */
 }
