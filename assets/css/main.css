@@ -1737,3 +1737,13 @@ h2.major {
   font-size: 0.8rem;
   opacity: 0.7;
 }
+
+/* Tiny thumbnail for blog post cover */
+#post-cover {
+  width: 96px;          /* tiny */
+  height: 96px;         /* tiny square */
+  object-fit: cover;    /* keeps it neat */
+  border-radius: 6px;   /* soft edges */
+  display: block;
+  margin: 0 auto 1rem auto; /* centered */
+}
