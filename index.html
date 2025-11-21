@@ -52,7 +52,7 @@
 								<p>If you’ve ever looked at a “perfect” routine and thought, “yeah, that’s not happening,” you’re in the right place. Most of what I share starts as a Pinterest pin – then becomes a deeper blog-style guide you can actually use. Start by exploring <a href="#work">ADHD routines</a> or <a href="#about">Nala in Nature</a>, then save the ones that feel doable on your lowest-energy days.</p>
 							</article>
 
-						<!-- Work (reused as Low-Energy ADHD Girl)-->
+						<!-- ADHD)-->
 							<article id="work">
 								<h2 class="major">ADHD-Friendly Systems</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
@@ -71,7 +71,7 @@
 								</p>
 							</article>
 
-						<!-- About (reused as Nala in Nature hub)-->
+						<!-- Nala-->
 							<article id="about">
 								<h2 class="major">Dogs, Anxiety, & Nature Walks</h2>
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
@@ -156,10 +156,17 @@
 									});
 						
 									if (response.ok) {
-										status.style.color = "#4CAF50";
-										status.textContent = "Message sent! I’ll get back to you soon. 💌";
-										form.reset();
-									} else {
+									    status.style.color = "#4CAF50";
+									    status.textContent = "Message sent! I’ll get back to you soon. 💌";
+									    form.reset();
+									
+									    // Show message for 5 seconds before hiding it
+									    setTimeout(() => {
+									        status.style.display = "none";
+									        status.textContent = "";
+									    }, 5000); // 5,000 ms = 5 seconds
+									}
+								 } else {
 										status.style.color = "#E53935";
 										status.textContent = "Something went wrong. Please try again.";
 									}
@@ -440,6 +447,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	</body>
 </html>
+
 
 
 
