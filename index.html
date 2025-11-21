@@ -483,20 +483,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	  const postContent = document.getElementById("post-content");
 	
 		function renderBlogList() {
-		  blogList.innerHTML = posts.map(post => `
-		    <div class="blog-item">
-		      <a href="#post-viewer" onclick="viewPost(${post.id})">
-		        <img
-		          class="blog-cover-thumb"
-		          src="${post.cover}"
-		          alt="${post.title} cover image"
-		        />
-		        <div class="blog-text">
-		          <h3>${post.title}</h3>
-		          <p class="date">${post.date}</p>
+		  blogList.innerHTML = posts.map((post, index) => `
+		    <article class="blog-card">
+		      <a href="#post-viewer" class="blog-card-inner" onclick="viewPost(${post.id})">
+		        <div class="blog-card-cover">
+		          <img src="${post.cover}" alt="${post.title} cover image" />
+		        </div>
+		
+		        <div class="blog-card-footer">
+		          <span class="blog-card-step">${index + 1}</span>
+		          <h3 class="blog-card-title">${post.title}</h3>
+		          <p class="blog-card-date">${post.date}</p>
 		        </div>
 		      </a>
-		    </div>
+		    </article>
 		  `).join("");
 		}
 		
@@ -525,6 +525,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	</script>
 	</body>
 </html>
+
 
 
 
