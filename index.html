@@ -476,43 +476,53 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	<!-- Blog Logic to Main JS -->
 	<script>
 	document.addEventListener("DOMContentLoaded", () => {
-	  const blogList = document.getElementById("blog-list");
-	  const postViewer = document.getElementById("post-viewer");
-	  const postTitle = document.getElementById("post-title");
-	  const postCover = document.getElementById("post-cover");
+	  
+	  const blogList    = document.getElementById("blog-list");
+	  const postViewer  = document.getElementById("post-viewer");
+	  const postTitle   = document.getElementById("post-title");
+	  const postCover   = document.getElementById("post-cover");
 	  const postContent = document.getElementById("post-content");
 	
-		function renderBlogList() {
-		  blogList.innerHTML = posts.map((post, index) => `
-		    <article class="blog-card">
-		      <a href="#post-viewer" class="blog-card-inner" onclick="viewPost(${post.id})">
-		        <div class="blog-card-cover">
-		          <img src="${post.cover}" alt="${post.title} cover image" />
-		        </div>
-		
-		        <div class="blog-card-footer">
-		          <span class="blog-card-step">${index + 1}</span>
-		          <h3 class="blog-card-title">${post.title}</h3>
-		          <p class="blog-card-date">${post.date}</p>
-		        </div>
-		      </a>
-		    </article>
-		  `).join("");
-		}
-		
-	  window.viewPost = function(id) {
+	  /* Render Blog Post Grid */
+	  function renderBlogList() {
+	    blogList.innerHTML = posts
+	      .map((post, index) => `
+	        <article class="blog-card">
+	          <a href="#post-viewer" 
+	             class="blog-card-inner" 
+	             onclick="viewPost(${post.id})">
+	
+	            <div class="blog-card-cover">
+	              <img src="${post.cover}" 
+	                   alt="${post.title} cover image" />
+	            </div>
+	
+	            <div class="blog-card-footer">
+	              <span class="blog-card-step">${index + 1}</span>
+	              <h3 class="blog-card-title">${post.title}</h3>
+	              <p class="blog-card-date">${post.date}</p>
+	            </div>
+	
+	          </a>
+	        </article>
+	      `)
+	      .join("");
+	  }
+	
+	  /* View Single Post */
+	  window.viewPost = function (id) {
 	    const post = posts.find(p => p.id === id);
 	    if (!post) return;
 	
 	    postTitle.innerHTML = post.title;
-	    postCover.src = post.cover;
+	    postCover.src       = post.cover;
 	    postContent.innerHTML = post.content;
 	
 	    document.getElementById("blog").style.display = "none";
 	    postViewer.style.display = "block";
 	  };
 	
-	  // When navigating back
+	  /* Handle Back Navigation */
 	  window.addEventListener("hashchange", () => {
 	    if (location.hash === "#blog") {
 	      postViewer.style.display = "none";
@@ -520,11 +530,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	    }
 	  });
 	
+	  /* Initialize Blog List */
 	  renderBlogList();
+	
 	});
 	</script>
 	</body>
 </html>
+
 
 
 
