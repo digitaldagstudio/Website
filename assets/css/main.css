@@ -226,9 +226,22 @@ input, select, textarea {
 		font-size: 0.6rem;
 	}
 
+	/* UPDATED: Make main titles responsive */
+	h1 {
+		font-size: clamp(1.8rem, 6vw, 3.5rem); /* min, responsive, max */
+		line-height: 1.2;
+		letter-spacing: 0.35rem;
+	}
+	
+	/* UPDATED: Responsive section titles like Intro / ADHD routines / Dogs & walks */
+	h2.major {
+		font-size: clamp(1.4rem, 4.5vw, 2.6rem);
+		line-height: 1.3;
+	}
+
 	@media screen and (max-width: 736px) {
 
-		h1 {
+		/* h1 {
 			font-size: 1.75rem;
 			line-height: 1.4;
 		}
@@ -236,7 +249,7 @@ input, select, textarea {
 		h2 {
 			font-size: 1.25em;
 			line-height: 1.5;
-		}
+		} */
 
 	}
 
@@ -1140,9 +1153,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
