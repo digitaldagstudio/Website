@@ -1706,38 +1706,6 @@ h2.major {
     line-height: 1.3;
 }
 
-/* Blog list items with small cover image */
-.blog-item {
-  margin-bottom: 1.5rem;
-}
-
-.blog-item a {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  text-decoration: none;
-  border-bottom: none;
-}
-
-.blog-cover-thumb {
-  width: 64px;
-  height: 64px;
-  object-fit: cover;
-  border-radius: 4px;
-  flex-shrink: 0;
-}
-
-.blog-text h3 {
-  margin: 0 0 0.2rem 0;
-  font-size: 1rem;
-}
-
-.blog-text .date {
-  margin: 0;
-  font-size: 0.8rem;
-  opacity: 0.7;
-}
-
 /* Blog post two-column layout */
 .post-layout {
   display: flex;
@@ -1778,4 +1746,44 @@ h2.major {
   }
 }
 
+/* BLOG GRID LAYOUT — inspired by Notion cards */
+#blog-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.8rem;
+  margin-top: 2rem;
+}
+
+.blog-card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  padding: 1rem;
+  backdrop-filter: blur(4px);
+  transition: 0.25s ease;
+}
+.blog-card:hover {
+  transform: translateY(-4px);
+  background: rgba(255,255,255,0.08);
+}
+
+/* Card image */
+.blog-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+}
+
+/* Title */
+.blog-card h3 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.1rem;
+}
+
+/* Date */
+.blog-card .date {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
 
