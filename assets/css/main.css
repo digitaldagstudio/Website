@@ -1808,3 +1808,31 @@ h2.major {
   opacity: 0.6;
   margin: 0;
 }
+
+/* === BLOG VISIBILITY FIX === */
+
+/* Make sure the blog article can scroll if content is taller */
+#blog {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+/* Give the grid a bit of padding so content isn't glued to the title */
+#blog-list {
+  margin-top: 1.5rem !important;
+  padding-top: 0.5rem;
+}
+
+/* Make each blog card pop off the background */
+.blog-card {
+  background: rgba(255,255,255,0.12) !important;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 8px;
+}
+
+/* Ensure cover image is fully visible (no accidental dimming) */
+.blog-card-cover img {
+  opacity: 1 !important;
+  display: block;
+}
+
