@@ -1,4 +1,4 @@
-window.posts = [
+const posts = [
   {
     id: 1,
     title: "The ADHD Morning Routine That Actually Works (Low-Energy Edition)",
@@ -70,6 +70,7 @@ window.posts = [
     cover: "images/post1.jpg"
   }
 ];
+
 
 
 
