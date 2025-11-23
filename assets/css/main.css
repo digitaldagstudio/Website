@@ -1782,16 +1782,6 @@ h2.major {
   background: rgba(255, 255, 255, 0.04);
 }
 
-/* Mini thumbnail image */
-.blog-thumb {
-  width: 64px;
-  height: 64px;
-  border-radius: 0.35rem;
-  object-fit: cover;
-  flex-shrink: 0;
-  opacity: 0.9;
-}
-
 /* Text column (title + date) */
 .blog-item-text {
   flex: 1;
@@ -1810,4 +1800,14 @@ h2.major {
   font-size: 0.75rem;
   opacity: 0.65;
 }
+
+/* Mini thumbnail image */
+.blog-thumb {
+  max-height: 6rem;
+  border-radius: 0.35rem;
+  object-fit: cover;
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+
 
