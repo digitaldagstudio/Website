@@ -491,6 +491,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	
 	      // Pull posts from posts.js
 	      let postsData = window.posts;
+
+		 // sort newest first
+		  postsData = postsData.slice().sort((a, b) => {
+		    const da = new Date(a.date);
+		    const db = new Date(b.date);
+		    return db - da;
+		  });
+			
 	      console.log("[Blog] postsData =", postsData);
 	
 	      if (!Array.isArray(postsData) || postsData.length === 0) {
@@ -561,6 +569,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	</script>
 	</body>
 </html>
+
 
 
 
