@@ -1775,6 +1775,7 @@ h2.major {
   background: rgba(0, 0, 0, 0.25);
   text-align: left;
   cursor: pointer;
+  height: auto;
 }
 
 /* Hover state */
@@ -1806,8 +1807,10 @@ h2.major {
   width: auto;
   height: auto;
   max-height: 6rem;        /* <-- this is the key line */
+  max-width: 6rem;
   border-radius: 0.35rem;
   object-fit: cover;
   flex-shrink: 0;
   opacity: 0.9;
 }
+
