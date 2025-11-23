@@ -1841,3 +1841,7 @@ h2.major {
 .blog-row-button:hover {
   background-color: rgba(255, 255, 255, 0.06);
 }
+
+.blog-row-title {
+  text-transform: none !important;
+}
