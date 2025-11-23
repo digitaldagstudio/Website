@@ -1801,13 +1801,13 @@ h2.major {
   opacity: 0.65;
 }
 
-/* Mini thumbnail image */
-.blog-thumb {
-  max-height: 6rem;
+/* Blog list thumbnail */
+#blog-list img.blog-thumb {
+  width: auto;
+  height: auto;
+  max-height: 6rem;        /* <-- this is the key line */
   border-radius: 0.35rem;
   object-fit: cover;
   flex-shrink: 0;
   opacity: 0.9;
 }
-
-
