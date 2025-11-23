@@ -1807,7 +1807,7 @@ h2.major {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   gap: 0.4rem;
   padding: 0.65rem 0.9rem;
 
@@ -1824,7 +1824,7 @@ h2.major {
   font-weight: 600;
   text-transform: none;          /* stop shouting */
   letter-spacing: 0.05rem;       /* much tighter */
-  text-align: center;
+  text-align: left;
   white-space: normal;
   overflow-wrap: anywhere;
 }
@@ -1845,4 +1845,5 @@ h2.major {
 .blog-row-title {
   text-transform: none !important;
 }
+
 
