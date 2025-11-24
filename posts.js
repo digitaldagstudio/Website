@@ -97,7 +97,6 @@ window.posts = [
     <hr />
 
     <h2>2. Hands-Free Hiking Leash (Game-Changing)</h2>
-    
     <img 
       src="https://m.media-amazon.com/images/I/81xU-Wwil0L._AC_SX425_.jpg" 
       alt="iyoshop hands-free dog leash" 
@@ -109,65 +108,105 @@ window.posts = [
     <hr />
 
     <h2>3. Water Essentials: Bowl + Travel Bottle</h2>
-    <img src="PRODUCT_IMAGE_PetBonusBowls" alt="PetBonus collapsible bowls" class="product-img" />
+     <img 
+      src="https://m.media-amazon.com/images/I/61EjwYs+POL._AC_SL1500_.jpg" 
+      alt="collapisble bowls" 
+      class="product-img" 
+    />
     <h3>✔ Collapsible Bowl: PetBonus 2-Pack Silicone Bowls</h3>
     <p><a href="https://amzn.to/3M2ORz4" target="_blank" rel="noopener noreferrer">https://amzn.to/3M2ORz4</a></p>
 
-    <img src="PRODUCT_IMAGE_SpringerBottle" alt="Springer dog water bottle" class="product-img" />
-    <h3>✔ Travel Bottle: Springer Dog Water Bottle (22oz)</h3>
+   
+    <h3>✔ Travel Bottle: Springer Dog Water Bottle (22oz)</h3>     
+    <img 
+      src="https://m.media-amazon.com/images/I/71ah4qIzA5L._AC_SL1500_.jpg" 
+      alt="travel bottle" 
+      class="product-img" 
+    />    
     <p><a href="https://amzn.to/3Kh8eDY" target="_blank" rel="noopener noreferrer">https://amzn.to/3Kh8eDY</a></p>
 
     <hr />
 
     <h2>4. A Lightweight Cooling Bandana</h2>
-    <img src="PRODUCT_IMAGE_WilderdogBandana" alt="Wilderdog cooling bandana" class="product-img" />
+    <img 
+      src="https://m.media-amazon.com/images/I/81Epo-tdPCL._AC_SL1500_.jpg" 
+      alt="cooling bandana" 
+      class="product-img" 
+    />    
     <h3>✔ Recommended: Wilderdog Cooling Bandana (Pumpkin Spice Plaid)</h3>
     <p><a href="https://amzn.to/4pndZ1W" target="_blank" rel="noopener noreferrer">https://amzn.to/4pndZ1W</a></p>
 
     <hr />
 
     <h2>5. Paw Protection (Essential for Rough or Hot Trails)</h2>
-
-    <img src="PRODUCT_IMAGE_MushersSecret" alt="Musher's Secret paw balm" class="product-img" />
+    <img 
+      src="https://m.media-amazon.com/images/I/71ah4qIzA5L._AC_SL1500_.jpg" 
+      alt="mushers" 
+      class="product-img" 
+    />     
     <h3>✔ Paw Balm: Musher’s Secret Dog Paw Wax</h3>
     <p><a href="https://amzn.to/4ihl9CH" target="_blank" rel="noopener noreferrer">https://amzn.to/4ihl9CH</a></p>
 
-    <img src="PRODUCT_IMAGE_QUMYBoots" alt="QUMY dog boots" class="product-img" />
+    <img 
+      src="https://m.media-amazon.com/images/I/71grLkFiesL._AC_SL1100_.jpg" 
+      alt="dog booties" 
+      class="product-img" 
+    />   
     <h3>✔ Boots: QUMY Dog Shoes</h3>
     <p><a href="https://amzn.to/43MMPJC" target="_blank" rel="noopener noreferrer">https://amzn.to/43MMPJC</a></p>
 
     <hr />
 
     <h2>6. High-Value Trail Treats</h2>
-    <img src="PRODUCT_IMAGE_VitalEssentials" alt="Vital Essentials freeze dried beef liver treats" class="product-img" />
+    <img 
+      src="https://m.media-amazon.com/images/I/81UATDy+0EL._AC_SL1500_.jpg" 
+      alt="treats" 
+      class="product-img" 
+    />   
     <h3>✔ Recommended: Vital Essentials Freeze-Dried Beef Liver</h3>
     <p><a href="https://amzn.to/3XN7fi2" target="_blank" rel="noopener noreferrer">https://amzn.to/3XN7fi2</a></p>
 
     <hr />
 
     <h2>7. A Quick-Dry Trail Towel</h2>
-    <img src="PRODUCT_IMAGE_WiseOwlTowel" alt="Wise Owl microfiber towel" class="product-img" />
+    <img 
+      src="https://m.media-amazon.com/images/I/81ueqfudtUL._AC_SL1500_.jpg" 
+      alt="towel" 
+      class="product-img" 
+    />   
     <h3>✔ Recommended: Wise Owl Outfitters Microfiber Towel</h3>
     <p><a href="https://amzn.to/48wxJuj" target="_blank" rel="noopener noreferrer">https://amzn.to/48wxJuj</a></p>
 
     <hr />
 
     <h2>8. Treat/Fanny Pack</h2>
-    <img src="PRODUCT_IMAGE_WilderdogFannyPack" alt="Wilderdog utility fanny pack" class="product-img" />
+    <img 
+      src="https://m.media-amazon.com/images/I/8167Am9cDgL._AC_SL1500_.jpg" 
+      alt="fanny pack" 
+      class="product-img" 
+    />   
     <h3>✔ Recommended: Wilderdog Utility Fanny Pack</h3>
     <p><a href="https://amzn.to/4oXibpp" target="_blank" rel="noopener noreferrer">https://amzn.to/4oXibpp</a></p>
 
     <hr />
 
     <h2>9. Poop Bag Holder</h2>
-    <img src="PRODUCT_IMAGE_PoopBagHolder" alt="poop bag holder" class="product-img" />
+    <img 
+      src="https://m.media-amazon.com/images/I/61l-TZdLQyL._AC_SL1200_.jpg" 
+      alt="poop bag holder" 
+      class="product-img" 
+    />   
     <h3>✔ Recommended: Soft Fabric Poop Bag Dispenser</h3>
     <p><a href="https://amzn.to/4r8Ryzc" target="_blank" rel="noopener noreferrer">https://amzn.to/4r8Ryzc</a></p>
 
     <hr />
 
     <h2>10. Trail Dog First Aid Kit</h2>
-    <img src="PRODUCT_IMAGE_TrailDogKit" alt="trail dog medical kit" class="product-img" />
+    <img 
+      src="https://m.media-amazon.com/images/I/811zGOoyXrL._AC_SL1500_.jpg" 
+      alt="first aid" 
+      class="product-img" 
+    />   
     <h3>✔ Recommended: Adventure Medical Kits Trail Dog Medical Kit</h3>
     <p><a href="https://amzn.to/3XQwf80" target="_blank" rel="noopener noreferrer">https://amzn.to/3XQwf80</a></p>
 
@@ -175,11 +214,19 @@ window.posts = [
 
     <h2>11. Dog Backpack Options</h2>
 
-    <img src="PRODUCT_IMAGE_RuffwearPack" alt="Ruffwear day pack" class="product-img" />
+    <img 
+      src="https://m.media-amazon.com/images/I/81w6MXjYuyL._AC_SL1500_.jpg" 
+      alt="ruffwear dog day pack" 
+      class="product-img" 
+    />   
     <h3>✔ Day Pack: Ruffwear Front Range Dog Day Pack</h3>
     <p><a href="https://amzn.to/4oXWK7u" target="_blank" rel="noopener noreferrer">https://amzn.to/4oXWK7u</a></p>
 
-    <img src="PRODUCT_IMAGE_WilderdogPack" alt="Wilderdog backpack" class="product-img" />
+    <img 
+      src="https://m.media-amazon.com/images/I/A16jWtQa3nL._AC_SL1500_.jpg" 
+      alt="wilderdog backpack" 
+      class="product-img" 
+    />   
     <h3>✔ Harness Backpack: Wilderdog Dog Backpack (Pacific Blue)</h3>
     <p><a href="https://amzn.to/4oggClo" target="_blank" rel="noopener noreferrer">https://amzn.to/4oggClo</a></p>
 
@@ -304,6 +351,7 @@ window.posts = [
   cover: "images/adhd-weekend-reset.jpg"
 }
 ];
+
 
 
 
