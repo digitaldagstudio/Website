@@ -1835,10 +1835,11 @@ h2.major {
 }
 
 .product-img {
-  width: 150px;      /* adjust this number to your preferred size */
-  height: 150px;      /* keeps proportions correct */
+  width: 300px;      /* adjust this number to your preferred size */
+  height: 300px;      /* keeps proportions correct */
   border-radius: 8px;
   margin: 12px 0;
   display: block;
 }
+
 
