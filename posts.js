@@ -188,7 +188,7 @@ window.posts = [
     <h2>Final Thoughts</h2>
     <p>You don’t need a ton of gear to hike with your dog — just the right combination of protective, comfortable, and easy-to-pack essentials. With this setup, you’ll feel confident on the trail, your pup will stay safe and happy, and every outing becomes a peaceful escape from the busy world.</p>
   `,
-    cover: "images/post2.jpg"
+    cover: "images/post2.png"
   },
   
   {
@@ -304,6 +304,7 @@ window.posts = [
   cover: "images/adhd-weekend-reset.jpg"
 }
 ];
+
 
 
 
