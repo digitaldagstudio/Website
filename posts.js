@@ -246,7 +246,8 @@ window.posts = [
 
     <p>And that’s enough. Always. 🌿</p>
   `,
-  cover: "images/adhd-weekend-reset.jpg"
+  cover: "images/ADHD Weekend Reset.jpg"
 }
 ];
+
 
