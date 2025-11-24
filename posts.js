@@ -140,7 +140,7 @@ window.posts = [
 
     <h2>5. Paw Protection (Essential for Rough or Hot Trails)</h2>
     <img 
-      src="https://m.media-amazon.com/images/I/71ah4qIzA5L._AC_SL1500_.jpg" 
+      src="https://m.media-amazon.com/images/I/716VEpvp99L._AC_SL1500_.jpg" 
       alt="mushers" 
       class="product-img" 
     />     
@@ -351,6 +351,7 @@ window.posts = [
   cover: "images/adhd-weekend-reset.jpg"
 }
 ];
+
 
 
 
