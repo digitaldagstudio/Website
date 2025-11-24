@@ -86,7 +86,11 @@ window.posts = [
     <hr />
 
     <h2>1. A Secure, Comfortable Harness</h2>
-    <img src="https://m.media-amazon.com/images/I/61nuLRE8B0L._AC_SL1500_.jpg" alt="rabbitgoo no pull harness" class="product-img" />
+    <img 
+      src="https://m.media-amazon.com/images/I/61nulRE8B0L._AC_SL1500_.jpg" 
+      alt="rabbitgoo no pull harness" 
+      class="product-img" 
+    />
     <h3>✔ Recommended: rabbitgoo No-Pull Dog Harness</h3>
     <p><a href="https://amzn.to/3LZP5XJ" target="_blank" rel="noopener noreferrer">https://amzn.to/3LZP5XJ</a></p>
 
@@ -295,6 +299,7 @@ window.posts = [
   cover: "images/adhd-weekend-reset.jpg"
 }
 ];
+
 
 
 
