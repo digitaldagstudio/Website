@@ -476,8 +476,22 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	<!-- Blog posts system -->
 	<script src="js/posts-index.js"></script>
 	<script src="js/posts-loader.js"></script>	
+
+	<script>
+	document.addEventListener("DOMContentLoaded", function () {
+	  const closeButtons = document.querySelectorAll('.close, .close-button, #header .close');
+	
+	  closeButtons.forEach(btn => {
+	    btn.addEventListener('click', function () {
+	      // Force URL back to root
+	      history.pushState("", document.title, window.location.pathname);
+	    });
+	  });
+	});
+	</script>
 	</body>
 </html>
+
 
 
 
