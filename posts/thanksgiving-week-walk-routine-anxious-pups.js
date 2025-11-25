@@ -4,7 +4,7 @@ window.allPosts.push({
   slug: "thanksgiving-week-walk-routine-anxious-pups",
   title: "Thanksgiving Week Walk Routine for Anxious Pups (A Gentle Guide)",
   date: "11/25/2025",
-  cover: "posts/post-images/thanksgiving-week-walk-routine-for-anxious-pups.png", // update path if needed
+  cover: "posts/post-images/1F0A092D-E84B-4927-A33E-83ABEE5D88E6.png", // update path if needed
   content: `
     <p>The holidays can be exciting, chaotic, loud… and a lot for our dogs. Between new scents, guests coming and going, cooking noises, and schedule changes, even the most confident pups can feel overwhelmed. And if your dog already struggles with anxiety? Thanksgiving week can feel like a sensory marathon.</p>
 
