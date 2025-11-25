@@ -5,7 +5,7 @@ window.allPosts.push({
   slug: "thanksgiving-week-adhd-to-do-list-no-burnout-edition",
   title: "Thanksgiving Week To-Do List for ADHD Brains (No Burnout Edition)",
   date: "11/24/2025",
-  cover: "images/thanksgiving-week-todo-for-adhd.png",
+  cover: "posts/post-images/thanksgiving-week-todo-for-adhd.png",
   content: `
     <p>Thanksgiving week always comes with a strange mix of excitement, pressure, time blindness, and way too many tiny tasks that all feel urgent. And if you have ADHD? That overwhelm hits even faster. Suddenly the grocery list feels like a thesis project, the travel bag is still empty, and the dog has somehow become extra clingy.</p>
 
@@ -55,3 +55,4 @@ window.allPosts.push({
     <p>You’re already doing your best — and that’s enough.</p>
   `
 });
+
