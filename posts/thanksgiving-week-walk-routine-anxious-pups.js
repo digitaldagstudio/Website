@@ -1,6 +1,7 @@
 window.allPosts = window.allPosts || [];
 window.allPosts.push({
-  id: "thanksgiving-week-walk-routine-anxious-pups",
+  id: 5,
+  slug: "thanksgiving-week-walk-routine-anxious-pups",
   title: "Thanksgiving Week Walk Routine for Anxious Pups (A Gentle Guide)",
   date: "11/25/2025",
   cover: "posts/post-images/thanksgiving-week-walk-routine-for-anxious-pups.png", // update path if needed
